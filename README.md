@@ -47,22 +47,22 @@ The function accepts:
 -A character ('C' for Celsius or 'F' for Fahrenheit) representing the temperature unit.
 
 **Expected Behavior:**
-The function first validates the input to ensure:
+-The function first validates the input to ensure:
 -temp is a number (integer or float).
 -unit_temp is a single character (either 'C' or 'F').
 
-It checks the temperature range and classifies the patient's condition based on the following criteria:
+-It checks the temperature range and classifies the patient's condition based on the following criteria:
 Celsius (C):
--Hypothermic: Below 35°C
--Normal: 35°C to 37°C
--Hyperthermic: Above 37°C
+--Hypothermic: Below 35°C
+--Normal: 35°C to 37°C
+--Hyperthermic: Above 37°C
 
 Fahrenheit (F):
--Hypothermic: Below 95°F
--Normal: 95°F to 98.6°F
--Hyperthermic: Above 98.6°F
+--Hypothermic: Below 95°F
+--Normal: 95°F to 98.6°F
+--Hyperthermic: Above 98.6°F
 
-If an invalid unit is entered, an error message is displayed.
+-If an invalid unit is entered, an error message is displayed.
 
 **Example Usage:**
 temperature_check(35, 'C')
